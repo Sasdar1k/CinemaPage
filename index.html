@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project_Title</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style768.css">
+    <link rel="stylesheet" href="./css/style420.css">
+
+     <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+    <!-- Connecting Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Header start -->
+    <header class="header">
+        <div class="wrapper">
+            <div class="header__wrapper">
+                <div class="header__logo">
+                    <a href="/" class="header__logo-link">
+                        <img src="./img/svg/logo.svg" alt="Logo" class="header__logo-ico">
+                    </a>
+                </div>
+
+                <nav class="header-nav">
+                    <ul class="header__list">
+                        <li class="header__list-item">
+                            <a href="#!" class="header__list-item-link">Сеансы</a>
+                        </li>
+                        <li class="header__list-item">
+                            <a href="#!" class="header__list-item-link">Фильмы</a>
+                        </li>
+                        <li class="header__list-item">
+                            <a href="#!" class="header__list-item-link">Кинотеатры</a>
+                        </li>
+                        <li class="header__list-item">
+                            <a href="#!" class="header__list-item-link">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header__burger">
+                    <img src="./img/svg/burger.svg" alt="BurgerICO" class="header__burger-ico">
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <!-- Header end -->
+
+
+    <main class="main">
+
+        <section class="intro">
+            <div class="intro__pic">
+                <img src="./img/title-cinema.jpg" alt="TitlePic" class="intro-pic-img">
+            </div>
+            <div class="wrapper">
+                <div class="intro__wrapper">
+                    
+                    <h1 class="intro__title-text">
+                        КИНОТЕАТР ФУНТУРА СИНЕМА
+                    </h1>
+                    
+                    <!-- Аккордеоны -->
+                    <div class="intro__accordion">
+                        <!-- 1 Item -->
+                        <div class="intro__accord-item">
+                            <label for="accord1" class="intro__accord-item-title">Телефон</label>
+                            <input type="checkbox" class="intro__accord-item-input" name="accord" id="accord1">
+                            <div class="intro__accord-item-desc vision">
+                                <p class="intro__accord-item-desc-phone">
+                                    071-392-45-98
+                                </p>
+                                <p class="intro__accord-item-desc-phone">
+                                    071-392-45-98
+                                </p>
+                                <p class="intro__accord-item-desc-phone">
+                                    071-392-45-98
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- 2 Item -->
+                        <div class="intro__accord-item">
+                            <label for="accord2" class="intro__accord-item-title">Описание</label>
+                            <input checked="checked" type="checkbox" class="intro__accord-item-input" name="accord" id="accord2">
+                            <div class="intro__accord-item-desc vision">
+                                <p class="intro__accord-item-desc-info">
+                                    Зрителям кинотеатра предоставляется возможность лично убедиться
+                                     в преимуществах новейшей системы кинопоказа: <br>Звуковой Dolby Digital, 
+                                     акустической JBL, панорамных экранов Perlux, оценить мягкие кресла и приятную 
+                                     атмосферу уюта и комфорта во время просмотра современных кинолент.
+
+                                     <br><br>Бронирование билетов осуществляется на сайте! Выкуп забронированных 
+                                     мест производится без очереди! Бронь снимается автоматически за 30 минут до начала сеанса!
+
+                                     <br><br>ВНИМАНИЕ! При высокой посещаемости кинозала, администрация 
+                                     кинотеатра оставляет за собой право не продавать билеты на киносеанс 
+                                     через одно посадочное место.
+                                     <br>Минимальное количество проданных билетов на запуск сеанса - 4 шт. Возможны изменения, уточняйте на кассе или по телефону.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="rooms">
+            <div class="wrapper">
+                <p class="rooms__title">
+                    Залы
+                </p>
+
+                <div class="rooms__cards">
+                    <!-- 1 Card -->
+                    <div class="room__card">
+                        <div class="room__wrapper-card">
+                            <a href="#!" class="room__card-pic-link">
+                                <div class="room__card-pic">
+                                    <img src="./img/room1.jpg" alt="RoomScheme" class="room__card-img">
+                                </div>
+                            </a>
+    
+                            <div class="room__card-info">
+                                <p class="room__card-desc-title">
+                                    Бергман
+                                </p>
+                                <p class="room__card-desc-desc">
+                                    288 мест
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 2 Card -->
+                    <div class="room__card">
+                        <div class="room__wrapper-card">
+                            <a href="#!" class="room__card-pic-link">
+                                <div class="room__card-pic">
+                                    <img src="./img/room2.jpg" alt="RoomScheme" class="room__card-img">
+                                </div>
+                            </a>
+    
+                            <div class="room__card-info">
+                                <p class="room__card-desc-title">
+                                    Дзурлини
+                                </p>
+                                <p class="room__card-desc-desc">
+                                    97 мест
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 3 Card -->
+                    <div class="room__card">
+                        <div class="room__wrapper-card"><a href="#!" class="room__card-pic-link">
+                            <div class="room__card-pic">
+                                <img src="./img/room3.jpg" alt="RoomScheme" class="room__card-img">
+                            </div>
+                        </a>
+
+                        <div class="room__card-info">
+                            <p class="room__card-desc-title">
+                                Малкович
+                            </p>
+                            <p class="room__card-desc-desc">
+                                97 мест
+                            </p>
+                        </div></div>
+                    </div>
+                    <!-- 4 Card -->
+                    <div class="room__card">
+                        <div class="room__wrapper-card"><a href="#!" class="room__card-pic-link">
+                            <div class="room__card-pic">
+                                <img src="./img/room4.jpg" alt="RoomScheme" class="room__card-img">
+                            </div>
+                        </a>
+
+                        <div class="room__card-info">
+                            <p class="room__card-desc-title">
+                                Окуджава
+                            </p>
+                            <p class="room__card-desc-desc">
+                                90 мест
+                            </p>
+                        </div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sean">
+            <div class="wrapper">
+                <div class="sean__title">Сеансы</div>
+
+                <div class="swiper mySwiper sean__slider">
+                    <div class="swiper-wrapper sean-wrapper">
+                        <!-- 1 -->
+                        <a href="#!" class="swiper-slide sean__slide-link">
+                            <div class="sean__slide">
+                                <p class="sean__slide-day sean_modif">Пн</p>
+                                <p class="sean__slide-date sean_modif">14.02</p>
+                                <p class="sean__slide-number">70 сеансов</p>
+                            </div>
+                        </a>
+                        <!-- 2 -->
+                        <a href="#!" class="swiper-slide sean__slide-link">
+                            <div class="sean__slide">
+                                <p class="sean__slide-day sean_modif">Вт</p>
+                                <p class="sean__slide-date sean_modif">15.02</p>
+                                <p class="sean__slide-number">24 сеансов</p>
+                            </div>
+                        </a>
+                        <!-- 3 -->
+                        <a href="#!" class="swiper-slide sean__slide-link">
+                            <div class="sean__slide">
+                                <p class="sean__slide-day sean_modif">Ср</p>
+                                <p class="sean__slide-date sean_modif">16.02</p>
+                                <p class="sean__slide-number">36 сеансов</p>
+                            </div>
+                        </a>
+                        <!-- 4 -->
+                        <a href="#!" class="swiper-slide sean__slide-link">
+                            <div class="sean__slide">
+                                <p class="sean__slide-day sean_modif">Чт</p>
+                                <p class="sean__slide-date sean_modif">17.02</p>
+                                <p class="sean__slide-number">22 сеансов</p>
+                            </div>
+                        </a>
+                        <!-- 5 -->
+                        <a href="#!" class="swiper-slide sean__slide-link">
+                            <div class="sean__slide">
+                                <p class="sean__slide-day sean_modif">Пт</p>
+                                <p class="sean__slide-date sean_modif">18.02</p>
+                                <p class="sean__slide-number">58 сеансов</p>
+                            </div>
+                        </a>
+                        <!-- 6 -->
+                        <a href="#!" class="swiper-slide sean__slide-link">
+                            <div class="sean__slide">
+                                <p class="sean__slide-day sean_modif">Сб</p>
+                                <p class="sean__slide-date sean_modif">19.02</p>
+                                <p class="sean__slide-number">70 сеансов</p>
+                            </div>
+                        </a>
+                        <!-- 7 -->
+                        <a href="#!" class="swiper-slide sean__slide-link">
+                            <div class="sean__slide">
+                                <p class="sean__slide-day sean_modif">Вс</p>
+                                <p class="sean__slide-date sean_modif">20.02</p>
+                                <p class="sean__slide-number">76 сеансов</p>
+                            </div>
+                        </a>
+                        <!-- 8 -->
+                        <a href="#!" class="swiper-slide sean__slide-link">
+                            <div class="sean__slide">
+                                <p class="sean__slide-day sean_modif">Пн</p>
+                                <p class="sean__slide-date sean_modif">21.02</p>
+                                <p class="sean__slide-number">64 сеансов</p>
+                            </div>
+                        </a>
+                        <!-- 9 -->
+                        <a href="#!" class="swiper-slide sean__slide-link">
+                            <div class="sean__slide">
+                                <p class="sean__slide-day sean_modif">Вт</p>
+                                <p class="sean__slide-date sean_modif">22.02</p>
+                                <p class="sean__slide-number">24 сеансов</p>
+                            </div>
+                        </a>
+                        <!-- 10 -->
+                        <a href="#!" class="swiper-slide sean__slide-link">
+                            <div class="sean__slide">
+                                <p class="sean__slide-day sean_modif">Ср</p>
+                                <p class="sean__slide-date sean_modif">23.02</p>
+                                <p class="sean__slide-number">30 сеансов</p>
+                            </div>
+                        </a>
+
+
+                    </div>
+                </div>
+
+                <!-- Swiper -->
+                <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+                <!-- Первая попытка радиокнопок -->
+                <!-- <div class="sean__format">
+                    <div class="sean__wrapper">
+                            <label class="sean__format-input">
+                            <input type="radio" name="radio" />
+                                Список
+                            </label>
+                                  
+                            <label class="sean__format-input">
+                            <input type="radio" name="radio" />
+                                Сеансы
+                            </label>
+                    </div>
+                </div> -->
+
+                <!-- RADIOBUTTON -->
+                <div class="sean__format">
+                    <input type="radio" name="select" id="option-1" checked>
+                    <input type="radio" name="select" id="option-2">
+                    <label for="option-1" class="option option-1">
+                      <span>Список</span>
+                    </label>
+                    <label for="option-2" class="option option-2">
+                      <span>Сеансы</span>
+                    </label>
+                </div>
+
+                
+                <div class="sean__cards">
+                    <!-- 1 -->
+                    <div class="sean__card">
+                        <div class="sean__card-content">
+                            <h2 class="sean__card-title">
+                                Человек-паук: Нет пути домой
+                            </h2>
+                            <p class="sean__card-desc sean_kinocult">
+                                Кино-культурный центр «КиноКульт»
+                            </p>
+
+                            <div class="sean__time-btn">
+                                <p class="sean__card-time">
+                                    09:45
+                                </p>
+        
+                                <a href="#!" class="sean__card-btn-link">Забронировать</a>
+                            </div>
+                        </div>
+
+                        <div class="sean__card-img">
+                            <figure class="sean__card-fig">
+                                <figcaption class="sean__card-img-score">
+                                    7.5
+                                </figcaption>
+                                <figcaption class="sean__card-img-price">
+                                    от 100 ₽
+                                </figcaption>
+                                <img src="./img/films/spider-pic.jpg" alt="Film" class="sean__card-pic">
+                            </figure>
+                        </div>
+                    </div>
+                    <!-- 2 -->
+                    <div class="sean__card">
+                        <div class="sean__card-content">
+                            <h2 class="sean__card-title">
+                                Елки 8
+                            </h2>
+                            <p class="sean__card-desc sean_kinocult">
+                                Кино-культурный центр «КиноКульт»
+                            </p>
+
+                            <div class="sean__time-btn">
+                                <p class="sean__card-time">
+                                    10:30
+                                </p>
+        
+                                <a href="#!" class="sean__card-btn-link">Забронировать</a>
+                            </div>
+                        </div>
+
+                        <div class="sean__card-img">
+                            <figure class="sean__card-fig">
+                                <figcaption class="sean__card-img-score">
+                                    8.3
+                                </figcaption>
+                                <figcaption class="sean__card-img-price">
+                                    от 100 ₽
+                                </figcaption>
+                                <img src="./img/films/tree-pic.jpg" alt="Film" class="sean__card-pic">
+                            </figure>
+                        </div>
+                    </div>
+                    <!-- 3 -->
+                    <div class="sean__card">
+                        <div class="sean__card-content">
+                            <h2 class="sean__card-title">
+                                Матрица: Воскрешение
+                            </h2>
+                            <p class="sean__card-desc sean_star">
+                                Кинотеатр "Звездочка"
+                            </p>
+
+                            <div class="sean__time-btn">
+                                <p class="sean__card-time">
+                                    10:30
+                                </p>
+        
+                                <a href="#!" class="sean__card-btn-link">Забронировать</a>
+                            </div>
+                        </div>
+
+                        <div class="sean__card-img">
+                            <figure class="sean__card-fig">
+                                <figcaption class="sean__card-img-score">
+                                    8.9
+                                </figcaption>
+                                <figcaption class="sean__card-img-price">
+                                    от 150 ₽
+                                </figcaption>
+                                <img src="./img/films/matrix-pic.jpg" alt="Film" class="sean__card-pic">
+                            </figure>
+                        </div>
+                    </div>
+
+                    <!-- Статичный баннер -->
+                    <div class="sean__card-banner">
+                        <p class="sean__card-banner-text">
+                            Статичн<span style="color: #000 ">ый</span> баннер
+                        </p>
+                    </div>
+
+                    <!-- 4 -->
+                    <div class="sean__card">
+                        <div class="sean__card-content">
+                            <h2 class="sean__card-title">
+                                Человек-паук: Нет пути домой
+                            </h2>
+                            <p class="sean__card-desc sean_kinocult">
+                                Кино-культурный центр «КиноКульт»
+                            </p>
+
+                            <div class="sean__time-btn">
+                                <p class="sean__card-time">
+                                    09:45
+                                </p>
+        
+                                <a href="#!" class="sean__card-btn-link">Забронировать</a>
+                            </div>
+                        </div>
+
+                        <div class="sean__card-img">
+                            <figure class="sean__card-fig">
+                                <figcaption class="sean__card-img-score">
+                                    7.5
+                                </figcaption>
+                                <figcaption class="sean__card-img-price">
+                                    от 100 ₽
+                                </figcaption>
+                                <img src="./img/films/spider-pic.jpg" alt="Film" class="sean__card-pic">
+                            </figure>
+                        </div>
+                    </div>
+                    <!-- 5 -->
+                    <div class="sean__card">
+                        <div class="sean__card-content">
+                            <h2 class="sean__card-title">
+                                Елки 8
+                            </h2>
+                            <p class="sean__card-desc sean_kinocult">
+                                Кино-культурный центр «КиноКульт»
+                            </p>
+
+                            <div class="sean__time-btn">
+                                <p class="sean__card-time">
+                                    10:30
+                                </p>
+        
+                                <a href="#!" class="sean__card-btn-link">Забронировать</a>
+                            </div>
+                        </div>
+
+                        <div class="sean__card-img">
+                            <figure class="sean__card-fig">
+                                <figcaption class="sean__card-img-score">
+                                    8.3
+                                </figcaption>
+                                <figcaption class="sean__card-img-price">
+                                    от 100 ₽
+                                </figcaption>
+                                <img src="./img/films/tree-pic.jpg" alt="Film" class="sean__card-pic">
+                            </figure>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </section>
+
+    </main>
+
+    
+
+    <!-- Footer start -->
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer__wrapper">
+
+                <div class="footer__info1">
+                    <div class="footer__logo">
+                        <img src="./img/svg/logo-footer.svg" alt="Logo" class="footer__logo-ico">
+                    </div>
+                    <h3 class="footer__logo-desc">Афиша кинотеатров Донецка</h3>
+                </div>
+
+                <div class="footer__info2">
+                    <h3 class="footer__desc">
+                        © 2021 DNR.DEV
+                    </h3>
+                </div>
+                
+                
+            </div>
+        </div>
+    </footer>
+    <!-- Footer end -->
+
+
+    <!-- Connecting the JS file -->
+    <script src="js/main.js"></script> 
+</body>
+</html>

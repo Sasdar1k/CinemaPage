@@ -1,0 +1,79 @@
+@media (max-width: 768px) {
+
+    /* Wrapper */
+    .wrapper { margin: 0 18px; }
+
+    /* Header */
+    .header { min-height: 50px; }
+    .header__wrapper { padding: 16px 22px; }
+    .header__logo { margin-top: 10px; margin-right: 20px; }
+    .header__logo-ico { width: 120px; height: 20px; }
+    .header__list { justify-content: space-around; }
+    .header__list-item-link { font-size: 16px; }
+    .header__list-item { margin-left: 20px; }
+
+    /* Intro Pic */
+    .intro__pic { object-fit: cover; height: 600px; margin-bottom: 20px; }
+    .intro-pic-img { height: 100%; }
+
+    /* Intro */
+    .intro { margin-bottom: 40px; }
+    .intro__title-text { font-size: 26px; }
+    .intro__accord-item { margin-bottom: 40px; padding-bottom: 4px; }
+    .intro__accord-item-title { font-size: 18px; }
+    .intro__accord-item-desc-phone,
+    .intro__accord-item-desc-info { font-size: 16px; margin-bottom: 4px; }
+
+    /* ROOMS */
+    .rooms { margin-bottom: 40px; }
+    .rooms__title { font-size: 28px; padding: 40px 0px 20px 0px; }
+
+    /* ROOMS CARDS */
+    .rooms__cards { grid-column-gap: 4px; grid-row-gap: 4px; }
+    .room__card { display: flex; flex-wrap: nowrap; margin: 0 auto 40px auto;}
+    .room__wrapper-card { display: flex; justify-content: center; align-items: center; }
+    .room__card-pic { width: 62px; height: 62px; margin-bottom: 0; display: inline-block;}
+    .room__card-info { display: inline-block;}
+    .room__card-desc-title { font-size: 14px; margin-bottom: 0; padding: 8px 8px 0 8px;} 
+    .room__card-desc-desc { font-size: 14px; margin-bottom: 0; }
+
+    /* SEAN */
+    .sean__title{ font-size: 28px; }
+
+    /* SEAN SLIDER */
+    .sean-wrapper { height: 56px; }
+    .sean__slide { width: 100px; height: 56px; }
+    .sean_modif, 
+    .sean__slide-number { font-size: 14px; }
+
+    /* SEAN FILM CARDS */
+    .sean__card { max-height: 160px; }
+    .sean__card-title { font-size: 20px; white-space: nowrap; }
+    .sean__card-desc { font-size: 16px; white-space: nowrap; }
+    .sean__card-time { font-size: 24px; }
+    .sean__card-img-score { font-size: 16px; }
+    .sean__card-img-price { font-size: 10px; padding: 4px; }
+    .sean__card-content { padding: 16px 20px; width: 600px; }
+    .sean__card-btn-link { max-width: 208px; max-height: 40px; font-size: 16px; margin-bottom: 10px; 
+                           margin-right: 20px; margin-left: 8px;}
+    .sean__card-img{ position: relative; min-width: 124px; min-height: 146px; }
+    .sean__card-img::after{ bottom: 0; width: 124px; height: 60px; }
+
+    .sean__card-img-price{ right: 14px; top: 14px; }
+    .sean__card-img-score{ bottom: 10px; right: 10px; }
+
+    /* Статичный баннер */
+    .sean__card-banner-text{ font-size: 42px; }
+
+    /* Footer */
+    .footer__wrapper { padding: 16px 50px; }
+
+}
+
+
+@media (max-width: 640px) {
+    .wrapper { margin: 0 14px; }
+
+    .rooms__cards { grid-template-columns: repeat(2, 1fr); justify-content: center; align-items: center;}
+    .room__card:nth-child(1), .room__card:nth-child(2) { margin: 0 auto 20px auto; }
+}

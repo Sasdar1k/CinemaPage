@@ -1,0 +1,65 @@
+@media (max-width: 420px) {
+
+    /* Wrapper */
+    .wrapper { margin: 0 }
+
+    /* Header */
+    .header__list { display: none; }
+    .header__burger { display: block; } 
+
+    /* Intro Pic */
+    .intro__pic { object-fit: cover; height: 450px; margin-bottom: 20px; }
+    .intro-pic-img { height: 100%; }
+
+    /* Intro */
+    .intro { margin-bottom: 20px; }
+    .intro__title-text { font-size: 20px; }
+    .intro__accord-item { margin-bottom: 40px; padding-bottom: 4px; }
+    .intro__accord-item-title { font-size: 16px; }
+    .intro__accord-item-desc-phone,
+    .intro__accord-item-desc-info { font-size: 16px; margin-bottom: 4px; }
+
+    /* ROOMS */
+    .rooms { margin-bottom: 30px; }
+    .rooms__title { font-size: 20px; padding: 20px 0px 10px 0px; }
+
+    /* ROOMS CARDS */
+    .room__card { margin: 0 auto 20px auto;}
+
+    .room__wrapper-card { display: flex; justify-content: center; align-items: center; }
+    .room__card-pic { width: 50px; height: 50px; margin-bottom: 0; display: inline-block;}
+    .room__card-info { display: inline-block;}
+    .room__card-desc-title { font-size: 14px; margin-bottom: 0; padding: 8px 8px 0 8px;} 
+    .room__card-desc-desc { font-size: 14px; margin-bottom: 0; }
+
+    /* SEAN */
+    .sean__title{ font-size: 20px; margin-bottom: 12px; }
+
+    /* SEAN SLIDER */
+    .sean-wrapper { height: 56px; }
+    .sean__slider { margin-bottom: 12px; }
+    .sean__slide { width: 84px; height: 60px; }
+
+    /* SEAN RADIOBUTTON */
+    .sean__format { display: inline-flex; }
+
+    /* SEAN FILM CARDS */
+    .sean__card { min-height: 140px; }
+    .sean__card-title { font-size: 16px; white-space: normal; margin-bottom: 10px; }
+    .sean__card-desc { font-size: 12px; white-space: normal; margin-bottom: 12px; }
+    .sean__card-time { font-size: 18px; }
+    .sean__card-img-score { font-size: 16px; }
+    .sean__card-img-price { font-size: 10px; padding: 4px; }
+    .sean__card-content { padding: 10px 10px; width: 600px;  }
+    .sean__card-btn-link { width: 120px; height: 32px; font-size: 12px; margin-bottom: 10px; 
+                           margin-right: 20px; margin-left: 8px;}
+    .sean__card-img{  width: 110px; min-height: 140px; }
+    .sean__card-img::after{ bottom: 0; min-width: 110px; height: 70px; }
+
+    /* Статичный баннер */
+    .sean__card-banner-text{ font-size: 42px; }
+
+    /* Footer */
+    .footer__wrapper { padding: 16px 50px; }
+
+}
