@@ -23,7 +23,7 @@
 <body>
 
     <!-- Header start -->
-    <header class="header">
+    <header class="header open">
         <div class="wrapper">
             <div class="header__wrapper">
                 <div class="header__logo">
@@ -32,7 +32,7 @@
                     </a>
                 </div>
 
-                <nav class="header-nav">
+                <nav class="header-nav" id="menu">
                     <ul class="header__list">
                         <li class="header__list-item">
                             <a href="#!" class="header__list-item-link">Сеансы</a>
@@ -46,11 +46,24 @@
                         <li class="header__list-item">
                             <a href="#!" class="header__list-item-link">Контакты</a>
                         </li>
+
+                        <!-- Текст бургер меню -->
+                        <p class="header__burger-btn-text">Афиша кинотеатров Донецка</p>
                     </ul>
                 </nav>
-                <div class="header__burger">
+
+                <!-- Визуальный вариант бургер меню (временный) -->
+                <!-- <div class="header__burger">
                     <img src="./img/svg/burger.svg" alt="BurgerICO" class="header__burger-ico">
-                </div>
+                </div> -->
+
+                <!-- Бургер меню -->
+                <button class="header__burger-btn" id="burger">
+                    <!-- Каждый span = палочка бургера -->
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
 
             </div>
         </div>

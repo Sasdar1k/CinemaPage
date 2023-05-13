@@ -4,8 +4,16 @@
     .wrapper { margin: 0 }
 
     /* Header */
-    .header__list { display: none; }
-    .header__burger { display: block; } 
+    /* .header__list { display: none; } */
+    .header__burger-btn { display: block; } 
+    .header-nav {  padding: 120px 40px 40px 40px;  position: absolute; left: 0; 
+        top: -500px; height: 30vh; background: #F45B1A; 
+        transition: transform .5s;    }
+    .header__list { gap: 10px; display: flex; justify-content: center; }
+    .header__list-item { text-align: center; width: 100%; display: block; font-weight: 500; padding: 10px 0; margin: 0; }
+    .header__list-item-link { font-size: 28px; }
+    .header__burger-btn-text{ display: block; }
+    .header.open .header-nav{  transform: translateY(100%);}
 
     /* Intro Pic */
     .intro__pic { object-fit: cover; height: 450px; margin-bottom: 20px; }
@@ -55,6 +63,9 @@
                            margin-right: 20px; margin-left: 8px;}
     .sean__card-img{  width: 110px; min-height: 140px; }
     .sean__card-img::after{ bottom: 0; min-width: 110px; height: 70px; }
+
+    .sean__card-btn-link:hover, .sean__card-btn-link:focus{ background: #e75414; width: 120px; height: 32px; }
+    .sean__card-btn-link:active{ background: #dd4f13; width: 120px; height: 32px; }
 
     /* Статичный баннер */
     .sean__card-banner-text{ font-size: 42px; }
